@@ -1,28 +1,52 @@
-# Python缓存文件
+# Python 缓存
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+parts/
+var/
+*.manifest
+*.spec
 
-# 实验数据文件（体积过大，单独归档）
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 数据文件（模拟生成的 CSV，体积可能较大）
 *.csv
-scan_raw_data/
-
-# 日志文件
+batch_data/
 *.log
-verify.log
+
+# 图片文件（可重新生成，不建议提交）
+*.png
+*.jpg
+*.jpeg
 
 # 系统文件
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# 旧的前端和启动器文件（已废弃）
-launcher.py
-firefly-lab.html
-firefly-lab_backup.html
+# Matplotlib 缓存
+.matplotlib/
 
-# IDE配置文件
-.vscode/
-.idea/
-*.swp
+# 临时文件
+tmp/
+temp/
