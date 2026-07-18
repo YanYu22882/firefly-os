@@ -1,0 +1,28 @@
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 实验数据文件（体积过大，单独归档）
+*.csv
+scan_raw_data/
+
+# 日志文件
+*.log
+verify.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 旧的前端和启动器文件（已废弃）
+launcher.py
+firefly-lab.html
+firefly-lab_backup.html
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
