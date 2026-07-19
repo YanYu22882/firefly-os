@@ -1,52 +1,29 @@
-# Python 缓存
+Python缓存
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-develop-eggs/
-downloads/
-eggs/
-parts/
-var/
-*.manifest
-*.spec
 
-# 虚拟环境
+虚拟环境
 venv/
 env/
-ENV/
 .venv
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# 数据文件（模拟生成的 CSV，体积可能较大）
+CSV数据文件（模拟生成的，体积可能较大）
 *.csv
 batch_data/
-*.log
 
-# 图片文件（可重新生成，不建议提交）
+图片文件（可重新生成，不需要提交）
 *.png
 *.jpg
-*.jpeg
 
-# 系统文件
+IDE配置
+.vscode/
+.idea/
+
+系统文件
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Matplotlib 缓存
+Matplotlib缓存
 .matplotlib/
-
-# 临时文件
-tmp/
-temp/
